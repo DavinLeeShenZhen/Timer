@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WindowsController.h
 //  Timer
 //
 //  Created by lidapeng on 2017/8/10.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
-
+@interface WindowsController : NSWindowController
 
 @end
-
