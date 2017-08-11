@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		8D5AC22B1F3BF6390064DAC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5AC22A1F3BF6390064DAC6 /* AppDelegate.m */; };
 		8D5AC22E1F3BF6390064DAC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5AC22D1F3BF6390064DAC6 /* main.m */; };
-		8D5AC2311F3BF6390064DAC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5AC2301F3BF6390064DAC6 /* ViewController.m */; };
 		8D5AC2331F3BF6390064DAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5AC2321F3BF6390064DAC6 /* Assets.xcassets */; };
 		8D5AC2361F3BF6390064DAC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5AC2341F3BF6390064DAC6 /* Main.storyboard */; };
+		8D5AC23F1F3C0BB00064DAC6 /* WindowsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5AC23E1F3C0BB00064DAC6 /* WindowsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,11 +19,11 @@
 		8D5AC2291F3BF6390064DAC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D5AC22A1F3BF6390064DAC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8D5AC22D1F3BF6390064DAC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8D5AC22F1F3BF6390064DAC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8D5AC2301F3BF6390064DAC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8D5AC2321F3BF6390064DAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D5AC2351F3BF6390064DAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D5AC2371F3BF6390064DAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5AC23D1F3C0BB00064DAC6 /* WindowsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowsController.h; sourceTree = "<group>"; };
+		8D5AC23E1F3C0BB00064DAC6 /* WindowsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				8D5AC2291F3BF6390064DAC6 /* AppDelegate.h */,
 				8D5AC22A1F3BF6390064DAC6 /* AppDelegate.m */,
-				8D5AC22F1F3BF6390064DAC6 /* ViewController.h */,
-				8D5AC2301F3BF6390064DAC6 /* ViewController.m */,
+				8D5AC23D1F3C0BB00064DAC6 /* WindowsController.h */,
+				8D5AC23E1F3C0BB00064DAC6 /* WindowsController.m */,
 				8D5AC2321F3BF6390064DAC6 /* Assets.xcassets */,
 				8D5AC2341F3BF6390064DAC6 /* Main.storyboard */,
 				8D5AC2371F3BF6390064DAC6 /* Info.plist */,
@@ -147,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5AC2311F3BF6390064DAC6 /* ViewController.m in Sources */,
+				8D5AC23F1F3C0BB00064DAC6 /* WindowsController.m in Sources */,
 				8D5AC22E1F3BF6390064DAC6 /* main.m in Sources */,
 				8D5AC22B1F3BF6390064DAC6 /* AppDelegate.m in Sources */,
 			);
@@ -301,6 +301,7 @@
 				8D5AC23C1F3BF6390064DAC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
